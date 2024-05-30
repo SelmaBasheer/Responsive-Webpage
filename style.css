@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    background-color: #fff;
+}
+
+@media screen {
+    .container {
+        max-width: 1670px;
+    }
+}
+
+.logo-img{
+    margin-top: -3px;
+    max-width: none;
+    width: 108px;
+}  
+
+.topnav-right{
+    float: right;
+}
+
+.nav-item{
+    font-size: 13px;
+    padding: 0 10px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline #262626 solid 2px;
+}
+
+  .logos nav ul li{
+    list-style-type: none;
+  }
+
+  .logos nav ul li img{
+    width: 50px;
+    height: 50px;
+    
+  }
+
+  .logo-navbar {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+
+  .img-logo{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+  }
+
+  .btn-warning{
+    border-radius: 0 !important;
+    padding: 1px 8px;
+  }
+
+  .btn-primary{
+    background-color: #0067b8;
+    border-radius: 0 !important;
+  }
+
+  .flex-img{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    
+  }
+
+  .icon-row{
+    width: 1000px;
+    margin: auto;
+  }
+
+  
+
+  .icon-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container{
+    width: 1000px; 
+    margin: auto; 
+    padding-top: 50px;
+}
+
+.card-block{
+    width: 382PX;
+    height: 550px;
+    border-radius: 0 !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body{
+    padding: 30px;
+    line-height: 1.5rem;
+}
+
+.content-img{
+    height: auto;
+}
+
+@media only screen and (max-width:576) {
+
+    .content-img , .card-block{
+        width: 100%;
+    }
+    
+    .content-img img{
+        margin: 50px 0;
+    }
+    
+    
+}
+
+
+.social-flex-img{
+    width: 30px;
+    height: 30px;
+}
+
+button{
+    border-radius: 0 !important;
+}
+
+.back-to-top-btn{
+    float: right;
+    display: none;
+    position: ;
+    background-color:rgb(175, 173, 173);
+    border: 0;
+    height: 40px;
+    width: 150px;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
+    
+}
+.back-to-top-btn:hover{
+    background-color: white;
+}
+
+.back-to-top-btn a{
+    text-decoration: none !important;
+    color: #000;
+}
+
+
+.nav-item a{
+    text-decoration: none;
+    color: #616161;
+    font-size: 12px;
+    line-height: 1.5px;
+    cursor: pointer;
+}
+
+.nav-item a:hover{
+    text-decoration: underline 2px;
+}
+
+.nav-item h6{
+    color: #616161;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5px;
+}
+
+.footer{
+    background-color: #f2f2f2;
+    margin-top: 48px;
+}
+
+.footer-content, .privacy-footer{
+    margin-left: 100px;
+    margin-right: 100px;
+} 
+
+@media only screen and (max-width:768px){
+    .privacy-footer ul {
+        flex-direction: column; 
+    }
+    .privacy-footer ul li{
+        margin-bottom: 10px;
+    }
+}
+
+
+.footer-items ul li{
+    list-style-type: none;
+}
+.footer-items, .footer-items ul li a{
+    text-decoration: none;
+    color: #616161;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.footer-items ul li a:hover{
+    text-decoration: underline 2px;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+  }
+
+  .col-lg-3{
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+.col-lg-3 img {
+    max-width: 100%;
+}
+.img-container {
+    display: inline-block;
+    position: relative;
+}
+.positioning{
+    position: absolute;
+    /* right: 250px;
+    bottom: 215px; */
+    top: 55%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: black;
+    padding: 4px;
+    font-size: 17px;
+    line-height: 18px;
+    line-height: 2.5rem;
+}
+
+
+.responsive-text{
+    font-size: 1.2rem;
+}
+
+@media (max-width : 992px) and (min-width : 769px){
+    .responsive-text, .btn-text-img{
+        font-size: 1.1rem;
+        padding: 0px;
+        margin: 0;
+    }
+}
+
+@media (max-width : 768px){
+    .responsive-text, .btn-text-img{
+        font-size: 0.5rem;
+        padding: 0px;
+        margin: 0;
+        line-height: 10px;
+    }
+
+    .btn-text-img{
+        width: 50px;
+        height: 15px;
+        
+    }
+}
+
